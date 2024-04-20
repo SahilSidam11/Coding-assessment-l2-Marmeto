@@ -1,22 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+    <link rel="stylesheet" href="./public/styles/style.css" />
+    <title>Product Page</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
-
-</head>
-
-<body>
-    <!-- Your code goes here -->
+  <body>
     <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
-    </div>
-    <!-- Happy coding 😊 -->
-    <script src="./script.js"></script>
-</body>
+      <div class="col-1">
+        <div class="small-container single-product">
+          <img
+            src="./public/assets/product-img-2.jpg"
+            alt="woman in white top"
+            class="product-main"
+            id="product-img"
+          />
+        </div>
+        <div class="small-image">
+          <img src="./public/assets/product-img-2.jpg" alt="" />
 
+          <img src="./public/assets/product-img-1.jpg" alt="" />
+
+          <img src="./public/assets/product-img-3.jpg" alt="" />
+
+          <img src="./public/assets/product-img-4.jpg" alt="" />
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="product-title">
+          <p>Marmeto</p>
+          <h1>Embrace Sideboard</h1>
+        </div>
+        <div class="product-price">
+          <div class="price">
+            <h1>$12999.00</h1>
+            <span class="offer"><p id="offer">35% Off</p></span>
+          </div>
+          <span class="original-price"><p>$19999.00</p></span>
+        </div>
+        <div class="variant">
+          <p class="font-grey">Choose a Color</p>
+          <div class="colour-option">
+            <div class="variant-1">
+              <svg
+                class="hidden"
+                id="Yellow"
+                width="24"
+                height="20"
+                viewBox="0 0 24 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M23.2536 0.252736C23.8044 0.668905 23.9135 1.4528 23.4973 2.00361L10.7473 18.8786C10.5376 19.1563 10.2215 19.3339 9.87529 19.3688C9.52904 19.4037 9.18393 19.2926 8.92299 19.0624L0.422988 11.5624C-0.094667 11.1056 -0.144037 10.3157 0.312718 9.79804C0.769472 9.28039 1.55939 9.23102 2.07704 9.68777L9.56573 16.2954L21.5027 0.496529C21.9188 -0.0542836 22.7027 -0.163433 23.2536 0.252736Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="variant-2">
+              <svg
+                class="hidden"
+                id="Green"
+                width="24"
+                height="20"
+                viewBox="0 0 24 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M23.2536 0.252736C23.8044 0.668905 23.9135 1.4528 23.4973 2.00361L10.7473 18.8786C10.5376 19.1563 10.2215 19.3339 9.87529 19.3688C9.52904 19.4037 9.18393 19.2926 8.92299 19.0624L0.422988 11.5624C-0.094667 11.1056 -0.144037 10.3157 0.312718 9.79804C0.769472 9.28039 1.55939 9.23102 2.07704 9.68777L9.56573 16.2954L21.5027 0.496529C21.9188 -0.0542836 22.7027 -0.163433 23.2536 0.252736Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="variant-3">
+              <svg
+                class="hidden"
+                id="Blue"
+                width="24"
+                height="20"
+                viewBox="0 0 24 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M23.2536 0.252736C23.8044 0.668905 23.9135 1.4528 23.4973 2.00361L10.7473 18.8786C10.5376 19.1563 10.2215 19.3339 9.87529 19.3688C9.52904 19.4037 9.18393 19.2926 8.92299 19.0624L0.422988 11.5624C-0.094667 11.1056 -0.144037 10.3157 0.312718 9.79804C0.769472 9.28039 1.55939 9.23102 2.07704 9.68777L9.56573 16.2954L21.5027 0.496529C21.9188 -0.0542836 22.7027 -0.163433 23.2536 0.252736Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="variant-4">
+              <svg
+                class="hidden"
+                id="Pink"
+                width="24"
+                height="20"
+                viewBox="0 0 24 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M23.2536 0.252736C23.8044 0.668905 23.9135 1.4528 23.4973 2.00361L10.7473 18.8786C10.5376 19.1563 10.2215 19.3339 9.87529 19.3688C9.52904 19.4037 9.18393 19.2926 8.92299 19.0624L0.422988 11.5624C-0.094667 11.1056 -0.144037 10.3157 0.312718 9.79804C0.769472 9.28039 1.55939 9.23102 2.07704 9.68777L9.56573 16.2954L21.5027 0.496529C21.9188 -0.0542836 22.7027 -0.163433 23.2536 0.252736Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="size-container">
+          <p class="font-grey">Choose a Size</p>
+          <div class="size-option">
+            <div>
+              <input type="radio" name="size" id="Small" value="Small" />
+              <label for="Small">Small</label>
+            </div>
+            <div>
+              <input type="radio" name="size" id="Medium" value="Medium" />
+              <label for="Medium">Medium</label>
+            </div>
+            <div>
+              <input type="radio" name="size" id="Large" value="Large" />
+              <label for="Large">Large</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="size"
+                id="Extra Large"
+                value="Extra Large"
+              />
+              <label for="Extra Large">Extra Large</label>
+            </div>
+            <div>
+              <input type="radio" name="size" id="XXL" value="XXL" />
+              <label for="XXL">XXL</label>
+            </div>
+          </div>
+        </div>
+        <div class="btn-group">
+          <div class="btn-container">
+            <button type="button" id="decrease">-</button>
+            <h1 class="number-area" id="count">1</h1>
+            <button type="button" id="increase">+</button>
+          </div>
+          <div class="cart-button">
+            <button id="cart">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 19 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.7813 8.1875V4.25C12.7813 3.37976 12.4356 2.54516 11.8203 1.92981C11.2049 1.31445 10.3703 0.96875 9.50008 0.96875C8.62984 0.96875 7.79524 1.31445 7.17988 1.92981C6.56453 2.54516 6.21883 3.37976 6.21883 4.25V8.1875M16.1553 6.44362L17.2605 16.9436C17.3217 17.5255 16.8667 18.0312 16.2813 18.0312H2.71883C2.58076 18.0314 2.44421 18.0025 2.31803 17.9464C2.19186 17.8904 2.0789 17.8084 1.98647 17.7058C1.89405 17.6032 1.82424 17.4824 1.78158 17.3511C1.73891 17.2197 1.72435 17.0809 1.73883 16.9436L2.84483 6.44362C2.87034 6.20174 2.9845 5.97786 3.1653 5.81516C3.34609 5.65246 3.58073 5.56246 3.82395 5.5625H15.1762C15.6802 5.5625 16.1028 5.94312 16.1553 6.44362ZM6.54695 8.1875C6.54695 8.27452 6.51238 8.35798 6.45085 8.41952C6.38931 8.48106 6.30585 8.51562 6.21883 8.51562C6.1318 8.51562 6.04834 8.48106 5.98681 8.41952C5.92527 8.35798 5.8907 8.27452 5.8907 8.1875C5.8907 8.10048 5.92527 8.01702 5.98681 7.95548C6.04834 7.89394 6.1318 7.85938 6.21883 7.85938C6.30585 7.85938 6.38931 7.89394 6.45085 7.95548C6.51238 8.01702 6.54695 8.10048 6.54695 8.1875ZM13.1095 8.1875C13.1095 8.27452 13.0749 8.35798 13.0133 8.41952C12.9518 8.48106 12.8684 8.51562 12.7813 8.51562C12.6943 8.51562 12.6108 8.48106 12.5493 8.41952C12.4878 8.35798 12.4532 8.27452 12.4532 8.1875C12.4532 8.10048 12.4878 8.01702 12.5493 7.95548C12.6108 7.89394 12.6943 7.85938 12.7813 7.85938C12.8684 7.85938 12.9518 7.89394 13.0133 7.95548C13.0749 8.01702 13.1095 8.10048 13.1095 8.1875Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p>Add to Cart</p>
+            </button>
+          </div>
+        </div>
+        <div class="message">
+          <div class="popup">
+            <p id="alert"></p>
+          </div>
+        </div>
+        <div class="description">
+          <p>
+            The Embrace Sideboard is a stylish wear. With a top cloth designed
+            to provide superior protection and look great, this storage solution
+            is both functional and attractive. It fits seamlessly into any home
+            decor, with clean lines and a timeless look. Crafted from premium
+            materials for a combination of style, durability, and reliability.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script defer src="./script.js"></script>
+  </body>
 </html>
